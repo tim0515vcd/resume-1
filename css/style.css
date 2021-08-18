@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, "微軟正黑體";
+  margin: 0;
+  padding: 0;
+}
+
+.border-radius-profile{
+    border: 10px solid #dee2e6!important;
+    border-color: #2e51a2!important;
+}
+.icon-set
+{
+    background: #2e51a252;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    display: inline-block;
+    line-height: 32px;
+    color: #2e51a2;
+}
+.font-size-25px{
+    font-size: 25px;
+}
+
+.bg-green{
+    background-color: #4699b8 !important;
+}
+
+.bg-greenlight{
+    background-color: #17bea7 !important;
+}
+.bg-bluelight{
+    background-color: #b0b9d6!important;
+}
+.box-shadow{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.35)!important;
+}
+.font-size-unset{
+    font-size: unset;
+}
+.nav-font-size{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.text-vertical-align{
+    vertical-align: middle !important;
+}
+.rounded-125
+{
+    border-radius: 1.25rem!important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #425378;
+    font-weight: 800;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #425378;
+    font-weight: 800;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #d6deea;
+}
+
+
+.toTop-arrow {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 33%;
+    opacity: 0.6;
+    background: #2e51a2;
+    cursor: pointer;
+    position:fixed;
+    right: 1rem;
+    bottom: 1rem;
+    display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+    width: 18px;
+    height: 5px;
+    border-radius: 3px;
+    background: #fff;
+    position: absolute;
+    content: "";
+}
+.toTop-arrow::before {
+    transform: rotate(-45deg) translate(0, -50%);
+    left: 0.5rem;
+}
+.toTop-arrow::after {
+    transform: rotate(45deg) translate(0, -50%);
+    right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
